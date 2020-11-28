@@ -10,11 +10,12 @@ while n < src.count do
   while inner_n < src[n] do 
     
     if src[n][inner_n] < min_temp
-    min_temp = src[row_index][element_index]
+    min_temp = src[n][inner_n]
   end
-element_index += 1 
-end 
-new_array << min_integer
-row_index += 1 
+  inner_n += 1 
 end
-end 
+n += 1 
+results_array << min_temp
+end
+results_array
+end

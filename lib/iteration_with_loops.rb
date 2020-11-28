@@ -19,3 +19,5 @@ results_array << min_temp
 end
 results_array
 end
+
+array_1 = []
